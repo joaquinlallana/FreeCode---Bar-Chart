@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: aliceblue;
+}
+
+.bar{
+    fill: steelblue;
+}
+
+.bar:hover{
+    fill:aliceblue;
+}
+
+text{
+    font-family: sans-serif;
+}
+
+#title{
+    font-size: 20px;
+}
+
+#tooltip{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: steelblue;
+}
